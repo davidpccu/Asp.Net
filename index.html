@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#hide").click(function() {
+            $("p").hide(1000);
+        });
+        $("#show").click(function() {
+            $("p").show(1000);
+        });
+        $("#toggle").click(function() {
+            $("p").toggle(1000);
+        });
+        $("#slideDown").click(function() {
+            $(".panel").slideDown("slow");
+        });
+        $("#slideUp").click(function() {
+            $(".panel").slideUp("slow");
+        });
+        $("#slideToggle").click(function() {
+            $(".panel").slideToggle("slow");
+        });
+        $("#cmdanimate").click(function() {
+            var div = $("#animate");
+            div.animate({
+                height: '300px',
+                opacity: '0.4'
+            }, "slow");
+            div.animate({
+                width: '300px',
+                opacity: '0.8'
+            }, "slow");
+            div.animate({
+                height: '100px',
+                opacity: '0.4'
+            }, "slow");
+            div.animate({
+                width: '100px',
+                opacity: '0.8'
+            }, "slow");
+        });
+        
+        function flash(){
+    $('#flash').show().fadeOut('600');
+  };
+  
+  $('#bind').on('click', function(){
+    $('#display').on('click', flash);
+  });
+  
+  $('#unbind').on('click', function(){
+    $('#display').off('click');
+  });
+    });
+    </script>
+</head>
+<p id="p1">(speed,callback); speed 參數規定隱藏/顯示的速度，可以取以下值："slow"、"fast" 或毫秒。</p>
+<button id="hide" type="button">?藏</button>
+<button id="show" type="button">?示</button>
+<button id="toggle" type="button">切?</button>
+<div class="panel">
+    <p>slideDown()、slideUp()、slideToggle()</p>
+    <p>在 W3School，你可以找到你所需要的所有网站建?教程。</p>
+</div>
+<button id="slideDown" type="button">slideDown()</button>
+<button id="slideUp" type="button">slideUp()</button>
+<button id="slideToggle" type="button">slideToggle()</button>
+<br>
+<button id="cmdanimate" type="button">animate()動畫效果</button>
+<div id="animate" style="background:#98bf21;height:100px;width:100px;position:absolute; left:250px; ">
+</div>
+<br>
+<button id="display">display</button>
+<button id="bind">add flash</button>
+<button id="unbind">remove flash</button>
+<div id='flash' style='display:none'>Click!</div>
+    
+<body>
+</body>
+
+</html>
