@@ -63,6 +63,8 @@ public class Child : Parent
 //output: Child Name: ccc
 
 ```
+### new 和 Override 差異
 
+[參考](https://dotblogs.com.tw/skychang/2012/05/10/72114)
 
 
