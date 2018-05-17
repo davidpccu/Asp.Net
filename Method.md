@@ -66,7 +66,9 @@ public class Child : Parent
 ### Override 複寫
 
 父類別為Class1(基底類別)，子類別為Class2(衍生類別)
+
 Class2繼承Class1時，子類別的方法名可能會和父類別的方法名稱相同，但其實裡面的邏輯不同
+
 而這個時候，我們就可以在父類別的方法裡面加上Virtual，子類別裡面的方法加上override，來進行方法邏輯複寫的動作
 
 ``` C#
@@ -75,8 +77,13 @@ namespace ConsoleApplication1
 {
     public class Class1
     {
-        //如果沒有加上Virtual，子類別又override這個方法
-        //編譯器就會生氣喔!
+        //多加一個方法
+        public void PreTest()
+        {
+            Console.WriteLine("PreTest()");
+            Test();
+        }
+        //
         public virtual void Test()
         {
             Console.WriteLine("Class1.Test()");
@@ -85,19 +92,22 @@ namespace ConsoleApplication1
 
     public class Class2 : Class1
     {
-        //這裡使用override來複寫
+        //使用override
         public override void Test()
         {
             Console.WriteLine("Class2.Test()");
         }
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+            
             Class2 c = new Class2();
-            c.Test();//理所當然會出現Class2.Test()
+            //改成呼叫c.PreTest()
+            c.PreTest();//出現的是Class2.Test()
 
             //讓畫面可以暫停。
             Console.ReadLine();
@@ -108,6 +118,52 @@ namespace ConsoleApplication1
 ```
 
 ### new
+
+``` C#
+
+namespace ConsoleApplication1
+{
+    public class Class1
+    {
+        //多加一個方法
+        public void PreTest()
+        {
+            Console.WriteLine("PreTest()");
+            Test();
+        }
+        //
+        public void Test()
+        {
+            Console.WriteLine("Class1.Test()");
+        }
+    }
+
+    public class Class2 : Class1
+    {
+        //使用new關鍵字，讓編譯器開心一點。
+        public new void Test()
+        {
+            Console.WriteLine("Class2.Test()");
+        }
+
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Class2 c = new Class2();
+            //改成呼叫c.PreTest()
+            c.PreTest();//出現卻是Class1.Test()!!?
+
+            //讓畫面可以暫停。
+            Console.ReadLine();
+        }
+    }
+}
+
+```
 
 [參考](https://dotblogs.com.tw/skychang/2012/05/10/72114)
 
