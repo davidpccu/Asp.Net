@@ -119,6 +119,8 @@ namespace ConsoleApplication1
 
 ### new
 
+new關鍵字會保留產生該輸出的關聯性，但是它會隱藏警告，隱藏繼承自基底類別的成員
+
 ``` C#
 
 namespace ConsoleApplication1
@@ -165,6 +167,115 @@ namespace ConsoleApplication1
 
 ```
 
+無論是Class1或是Class2都還存著各自的Test方法
+
+而C#的機制，當繼承的Class2並無特別的撰寫PreTest方法，所以會回到Class1裡面去執行PreTest
+
+當執行到Test()這行的時候，又因為Class2不是使用Override的方式來複寫Class1的Test方法，所以就會直接使用Class1的方法
+
+所以如果真的要執行Class2的Test方法，就必須要使用Override
+
 [參考](https://dotblogs.com.tw/skychang/2012/05/10/72114)
 
+### 多型後的override
+
+``` C#
+
+namespace ConsoleApplication1
+{
+    public class Class1
+    {
+        //因為要使用override所以加上Virtual
+        public virtual void Test()
+        {
+            Console.WriteLine("Class1.Test()");
+        }
+    }
+
+    public class Class2 : Class1
+    {
+        //使用override關鍵字來複寫
+        public override void Test()
+        {
+            Console.WriteLine("Class2.Test()");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //我們用個多型吧!
+            Class1 c = new Class2();
+            c.Test();//結果並不易外，出現的是Class2.Test()
+
+            //讓畫面可以暫停。
+            Console.ReadLine();
+        }
+    }
+}
+
+```
+
+Class2複寫了Class1的Test方法，所以呼叫c.Test()的時候，因為知道Class2有加上override關鍵字，所以實際是呼叫Class2的Test方法。
+
+#### 多形後的new
+
+``` C#
+
+namespace ConsoleApplication1
+{
+    public class Class1
+    {
+        //使用new，就可以不加上virtual
+        public void Test()
+        {
+            Console.WriteLine("Class1.Test()");
+        }
+    }
+
+    public class Class2 : Class1
+    {
+        //使用new關鍵字
+        public new void Test()
+        {
+            Console.WriteLine("Class2.Test()");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //我們用個多型吧!
+            Class1 c = new Class2();
+            c.Test();//結果超易外，出現的是Class1.Test()
+
+            //讓畫面可以暫停。
+            Console.ReadLine();
+        }
+    }
+}
+
+```
+
+C#預設的情況下，會先處理變數型別的方法，例如上面的程式碼，變數型別為Class1
+
+所以預設如果執行c.Test()，則會進行Class1的Test方法，除非Class2的Test有明確的加上override關鍵字，這時候，才會進行Class2的Test方法。
+
+
+> new 和 override結論
+
+> 會有這樣的機制，是為了擴充上的彈性，假設目前的架構是Class1裡面沒有任何方法，而Class2裡面有寫一個Test方法，過了一段時間，可能Class1也加上了Test方法，這時候Class1和Class2也都有了Test方法了，此時，就算編譯，依然是沒有任何的問題的，如下。
+
+``` C#
+
+c1.Test();
+Class2 c2 = new Class2();//不影響，還是呼叫Class2的Test
+c2.Test();
+Class1 c3 = new Class2();//不影響，在Class1加上Test之前，是不可能這樣寫的
+c3.Test();
+Class2 c4 = new Class1();//怎麼可能會有這種寫法勒...
+
+```
 
