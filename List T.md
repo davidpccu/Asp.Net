@@ -24,7 +24,7 @@ foreach(string myStringList in myStringLists)
 
 ### Sort
 
-``` bash
+``` C#
 
 //這比較重要,使用 LINQ 和 sort 的屬性來做排序, 以下是以字長短來排列
 
@@ -48,7 +48,7 @@ foreach(string myStringList in myStringLists)
 
 ### Array to List
 
-``` bash
+``` C#
 
 int[] arr = new int[3]; 
  arr[0] = 2;
@@ -61,19 +61,18 @@ int[] arr = new int[3];
 
 ### Find
 
-``` bash
+``` C#
 
 List<int> list = new List<int>(new int[] { 19, 23, 29 });
 
 // 找大於20
- 
 int result = list.Find(item => item > 20);
 
 ```
 
 ### Join List to string
 
-``` bash
+``` C#
 
 List<string> cities = new List<string>();
  cities.Add("New York");
@@ -90,7 +89,7 @@ List<string> cities = new List<string>();
 
 ### Insert
 
-``` bash
+``` C#
 
 List<string> dogs = new List<string>(); 
 
@@ -104,7 +103,7 @@ List<string> dogs = new List<string>();
 
 ### Remove
 
-``` bash
+``` C#
 
 List<string> animals = new List<string>();
  animals.Add("狗");    
@@ -119,4 +118,74 @@ animals.RemoveAt(3);  // 移除蜘蛛,它好像也不是動物...
 
 animals.RemoveRange(0, 2);  // 移除0-2
  
+```
+
+### List 轉 Json (1)
+
+``` C#
+public class Service1 : IService1
+{
+    public string DoWork()
+    {
+        MPSearch MPSearch = new MPSearch();
+        MPSearch.JourneyType = "OneWay";
+        MPSearch.ServiceClass = "Y";
+        MPSearch.CityPair = "TPETYO";
+        MPSearch.TravelDates = "2018/05/19:2018/05/24 ";
+        MPSearch.AdtCount = 1;
+        MPSearch.ChdCount = 0;
+        MPSearch.InfCount = 0;
+
+        return JsonConvert.SerializeObject(MPSearch);
+    }
+}
+
+public class MPSearch
+{
+    [JsonProperty("Journey_Type")]
+    public string JourneyType { get; set; }
+
+    [JsonProperty("Service_Class")]
+    public string ServiceClass { get; set; }
+
+    [JsonProperty("City_Pair")]
+    public string CityPair { get; set; }
+
+    [JsonProperty("Travel_Dates")]
+    public string TravelDates { get; set; }
+
+    [JsonProperty("Adt_Count")]
+    public int AdtCount { get; set; }
+
+    [JsonProperty("Chd_Count")]
+    public int ChdCount { get; set; }
+
+    [JsonProperty("Inf_Count")]
+    public int InfCount { get; set; }
+}
+
+// {"Journey_Type":"OneWay","Service_Class":"Y","City_Pair":"TPETYO","Travel_Dates":"2018/05/19:2018/05/24 ","Adt_Count":1,"Chd_Count":0,"Inf_Count":0}
+
+```
+
+### List 轉 Json (2)
+
+``` C#
+
+List<FareTax> FareTax = new List<FareTax>();
+FareTax FareTaxRow  = new FareTax();
+FareTaxRow.id       = Fare_Id;
+FareTaxRow.tax      = myAdtTaxAmount.ToString();
+FareTaxRow.childTax = myChdTaxAmount.ToString();
+FareTax.Add(FareTaxRow); 
+
+myReturnValue = JsonConvert.SerializeObject(FareTax, Formatting.None);
+
+public class FareTax
+{
+    public string   id { get; set; }
+    public string   childTax { get; set; }
+    public string   tax { get; set; }
+}
+
 ```
