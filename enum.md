@@ -72,4 +72,45 @@ public void move()
 }
 
 ```
-可增加程式碼的可讀性
+>可增加程式碼的可讀性
+
+
+ 第二個例子，可以新增一個 Identity 的 Enum，統一管理使用者身分的值，這樣程式可讀性佳，要改變值也只需改一個地方。
+
+``` C#
+
+public enum Identity
+{
+    //管理者
+    Admin = 1,
+
+    //一般使用者
+    User = 2,
+}
+
+//需判斷的地方
+if (user.Identity != Identity.Admin)
+{
+    throw new Exception("沒有權限。");
+}
+
+```
+
+在 C# 還可以用 [Description("")] Attribute 來改進。
+
+``` C#
+
+using System.ComponentModel;
+
+public enum Sex
+{
+    [Description("男")]
+    Male = 1,
+
+    [Description("女")]
+    Female = 2
+}
+
+```
+
+>這樣不僅可以當 註解，還可以寫一個共用的擴充方法 ToDescription 給所有的 Enum 使用，不用再為每個 Enum 寫各自的轉換函數。
