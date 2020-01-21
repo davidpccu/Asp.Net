@@ -189,3 +189,15 @@ public class FareTax
 }
 
 ```
+
+### ConvertAll
+
+ConvertAll()泛型函式可以針對List內元素做轉換
+``` C#
+
+List<int> IntList = new List<int>(){ 65, 66, 67, 68};
+List<string> StringList = IntList.ConvertAll(new Converter<int,string>(Convert.ToString));
+
+Response.Write(string.Join(",", StringList.AsEnumerable()))
+// 65,66,67,68
+```
