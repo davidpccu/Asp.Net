@@ -46,3 +46,16 @@ private void button1_Click(object sender, EventArgs e)
 }
 
 ```
+
+#### DataTable To Dictionary
+
+``` C#
+
+Dictionary<string, DataRow> myDict = new Dictionary<string, DataRow>();
+
+//key
+myDict = dt.Rows.Cast<DataRow>().ToDictionary(wkROw => wkRow["key"].ToString());
+//key, value
+myDict = dt.Rows.Cast<DataRow>().ToDictionary(wkROw => wkRow["key"].ToString(), wkRow => wkRow["xxx"].ToString());
+
+```
