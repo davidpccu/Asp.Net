@@ -59,14 +59,39 @@ int[] arr = new int[3];
 ```
 
 
-### Find
+### FindIndex
 
+找出第一個符合條件的 index，找不到傳回 -1
 ``` C#
 
 List<int> list = new List<int>(new int[] { 19, 23, 29 });
 
 // 找大於20
 int result = list.Find(item => item > 20);
+
+```
+
+### Find
+
+return 第一個符合條件的object, 找不到傳回 null
+``` C#
+
+List<int> list = new List<int>(new int[] { 19, 23, 29 });
+
+// 找大於20
+int result = list.Find(item => item > 20);
+
+```
+
+### Exists
+
+單純看有無符合條件的資料
+``` C#
+
+List<int> list = new List<int>(new int[] { 19, 23, 29 });
+
+// 找大於20
+bool wkMark = list.Exists(item => item > 20);
 
 ```
 
