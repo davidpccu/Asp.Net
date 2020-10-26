@@ -1,0 +1,10 @@
+C:\Stoner5944\doNet\enumExample\enumExample\bin\enumExample.dll
+C:\Stoner5944\doNet\enumExample\enumExample\bin\enumExample.pdb
+C:\Stoner5944\doNet\enumExample\enumExample\obj\Debug\enumExample.dll
+C:\Stoner5944\doNet\enumExample\enumExample\obj\Debug\enumExample.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\enumExample\enumExample\bin\enumExample.dll.config
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\enumExample\enumExample\bin\enumExample.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\enumExample\enumExample\bin\enumExample.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\enumExample\enumExample\obj\Debug\enumExample.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\enumExample\enumExample\obj\Debug\enumExample.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\enumExample\enumExample\obj\Debug\enumExample.pdb

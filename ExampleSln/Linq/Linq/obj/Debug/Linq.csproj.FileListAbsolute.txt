@@ -1,0 +1,15 @@
+C:\Stoner5944\doNet\Linq\Linq\bin\Linq.dll
+C:\Stoner5944\doNet\Linq\Linq\bin\Linq.pdb
+C:\Stoner5944\doNet\Linq\Linq\obj\Debug\Linq.csprojResolveAssemblyReference.cache
+C:\Stoner5944\doNet\Linq\Linq\obj\Debug\Linq.dll
+C:\Stoner5944\doNet\Linq\Linq\obj\Debug\Linq.pdb
+\\fs05\個人目錄_資訊部\Share\5944\Data\C#\Linq\Linq\bin\Linq.dll
+\\fs05\個人目錄_資訊部\Share\5944\Data\C#\Linq\Linq\bin\Linq.pdb
+\\fs05\個人目錄_資訊部\Share\5944\Data\C#\Linq\Linq\obj\Debug\Linq.dll
+\\fs05\個人目錄_資訊部\Share\5944\Data\C#\Linq\Linq\obj\Debug\Linq.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\Linq\Linq\bin\Linq.dll.config
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\Linq\Linq\bin\Linq.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\Linq\Linq\bin\Linq.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\Linq\Linq\obj\Debug\Linq.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\Linq\Linq\obj\Debug\Linq.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\Linq\Linq\obj\Debug\Linq.pdb

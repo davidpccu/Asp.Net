@@ -1,0 +1,11 @@
+C:\Stoner5944\doNet\interfaceExample\interfaceExample\bin\interfaceExample.dll
+C:\Stoner5944\doNet\interfaceExample\interfaceExample\bin\interfaceExample.pdb
+C:\Stoner5944\doNet\interfaceExample\interfaceExample\obj\Debug\interfaceExample.dll
+C:\Stoner5944\doNet\interfaceExample\interfaceExample\obj\Debug\interfaceExample.pdb
+C:\Stoner5944\doNet\interfaceExample\interfaceExample\obj\Debug\interfaceExample.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\interfaceExample\interfaceExample\bin\interfaceExample.dll.config
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\interfaceExample\interfaceExample\bin\interfaceExample.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\interfaceExample\interfaceExample\bin\interfaceExample.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\interfaceExample\interfaceExample\obj\Debug\interfaceExample.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\interfaceExample\interfaceExample\obj\Debug\interfaceExample.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\interfaceExample\interfaceExample\obj\Debug\interfaceExample.pdb

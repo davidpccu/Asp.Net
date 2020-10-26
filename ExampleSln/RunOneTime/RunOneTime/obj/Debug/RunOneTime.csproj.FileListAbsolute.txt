@@ -1,0 +1,4 @@
+C:\Stoner5944\doNet\RunOneTime\RunOneTime\bin\RunOneTime.dll
+C:\Stoner5944\doNet\RunOneTime\RunOneTime\bin\RunOneTime.pdb
+C:\Stoner5944\doNet\RunOneTime\RunOneTime\obj\Debug\RunOneTime.dll
+C:\Stoner5944\doNet\RunOneTime\RunOneTime\obj\Debug\RunOneTime.pdb

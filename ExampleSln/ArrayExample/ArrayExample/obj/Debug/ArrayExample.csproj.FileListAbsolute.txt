@@ -1,0 +1,4 @@
+C:\Stoner5944\doNet\ArrayExample\ArrayExample\bin\ArrayExample.dll
+C:\Stoner5944\doNet\ArrayExample\ArrayExample\bin\ArrayExample.pdb
+C:\Stoner5944\doNet\ArrayExample\ArrayExample\obj\Debug\ArrayExample.dll
+C:\Stoner5944\doNet\ArrayExample\ArrayExample\obj\Debug\ArrayExample.pdb

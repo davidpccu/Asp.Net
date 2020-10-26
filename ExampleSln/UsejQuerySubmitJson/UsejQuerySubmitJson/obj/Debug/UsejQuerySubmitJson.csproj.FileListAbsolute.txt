@@ -1,0 +1,6 @@
+C:\Stoner5944\doNet\UsejQuerySubmitJson\UsejQuerySubmitJson\bin\UsejQuerySubmitJson.dll
+C:\Stoner5944\doNet\UsejQuerySubmitJson\UsejQuerySubmitJson\bin\UsejQuerySubmitJson.pdb
+C:\Stoner5944\doNet\UsejQuerySubmitJson\UsejQuerySubmitJson\bin\Newtonsoft.Json.dll
+C:\Stoner5944\doNet\UsejQuerySubmitJson\UsejQuerySubmitJson\bin\Newtonsoft.Json.xml
+C:\Stoner5944\doNet\UsejQuerySubmitJson\UsejQuerySubmitJson\obj\Debug\UsejQuerySubmitJson.dll
+C:\Stoner5944\doNet\UsejQuerySubmitJson\UsejQuerySubmitJson\obj\Debug\UsejQuerySubmitJson.pdb

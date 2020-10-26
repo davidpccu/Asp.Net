@@ -1,0 +1,11 @@
+C:\Stoner5944\doNet\CacheNET\CacheNET\bin\CacheNET.dll
+C:\Stoner5944\doNet\CacheNET\CacheNET\bin\CacheNET.pdb
+C:\Stoner5944\doNet\CacheNET\CacheNET\obj\Debug\CacheNET.csprojResolveAssemblyReference.cache
+C:\Stoner5944\doNet\CacheNET\CacheNET\obj\Debug\CacheNET.dll
+C:\Stoner5944\doNet\CacheNET\CacheNET\obj\Debug\CacheNET.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\CacheNET\CacheNET\bin\CacheNET.dll.config
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\CacheNET\CacheNET\bin\CacheNET.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\CacheNET\CacheNET\bin\CacheNET.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\CacheNET\CacheNET\obj\Debug\CacheNET.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\CacheNET\CacheNET\obj\Debug\CacheNET.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\CacheNET\CacheNET\obj\Debug\CacheNET.pdb

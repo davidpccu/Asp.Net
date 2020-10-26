@@ -1,0 +1,5 @@
+C:\Stoner5944\doNet\Collection\Collection\bin\Collection.dll
+C:\Stoner5944\doNet\Collection\Collection\bin\Collection.pdb
+C:\Stoner5944\doNet\Collection\Collection\obj\Debug\Collection.csprojResolveAssemblyReference.cache
+C:\Stoner5944\doNet\Collection\Collection\obj\Debug\Collection.dll
+C:\Stoner5944\doNet\Collection\Collection\obj\Debug\Collection.pdb

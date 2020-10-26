@@ -1,0 +1,6 @@
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\9x9_linq_SelectMany\a_multiplication_table\bin\a_multiplication_table.dll.config
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\9x9_linq_SelectMany\a_multiplication_table\bin\a_multiplication_table.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\9x9_linq_SelectMany\a_multiplication_table\bin\a_multiplication_table.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\9x9_linq_SelectMany\a_multiplication_table\obj\Debug\a_multiplication_table.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\9x9_linq_SelectMany\a_multiplication_table\obj\Debug\a_multiplication_table.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\9x9_linq_SelectMany\a_multiplication_table\obj\Debug\a_multiplication_table.pdb

@@ -1,0 +1,5 @@
+C:\Stoner5944\doNet\GetPath\GetPath\bin\GetPath.dll
+C:\Stoner5944\doNet\GetPath\GetPath\bin\GetPath.pdb
+C:\Stoner5944\doNet\GetPath\GetPath\obj\Debug\GetPath.csprojResolveAssemblyReference.cache
+C:\Stoner5944\doNet\GetPath\GetPath\obj\Debug\GetPath.dll
+C:\Stoner5944\doNet\GetPath\GetPath\obj\Debug\GetPath.pdb

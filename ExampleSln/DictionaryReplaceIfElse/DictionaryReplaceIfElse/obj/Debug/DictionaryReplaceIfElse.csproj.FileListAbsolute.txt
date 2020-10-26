@@ -1,0 +1,5 @@
+C:\Stoner5944\doNet\DictionaryReplaceIfElse\DictionaryReplaceIfElse\bin\DictionaryReplaceIfElse.dll
+C:\Stoner5944\doNet\DictionaryReplaceIfElse\DictionaryReplaceIfElse\bin\DictionaryReplaceIfElse.pdb
+C:\Stoner5944\doNet\DictionaryReplaceIfElse\DictionaryReplaceIfElse\obj\Debug\DictionaryReplaceIfElse.dll
+C:\Stoner5944\doNet\DictionaryReplaceIfElse\DictionaryReplaceIfElse\obj\Debug\DictionaryReplaceIfElse.pdb
+C:\Stoner5944\doNet\DictionaryReplaceIfElse\DictionaryReplaceIfElse\obj\Debug\DictionaryReplaceIfElse.csprojResolveAssemblyReference.cache

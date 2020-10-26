@@ -1,0 +1,11 @@
+C:\Stoner5944\doNet\Anonymous\Anonymous\bin\Anonymous.dll
+C:\Stoner5944\doNet\Anonymous\Anonymous\bin\Anonymous.pdb
+C:\Stoner5944\doNet\Anonymous\Anonymous\obj\Debug\Anonymous.csprojResolveAssemblyReference.cache
+C:\Stoner5944\doNet\Anonymous\Anonymous\obj\Debug\Anonymous.dll
+C:\Stoner5944\doNet\Anonymous\Anonymous\obj\Debug\Anonymous.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\AnonymousMethod\Anonymous\bin\Anonymous.dll.config
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\AnonymousMethod\Anonymous\bin\Anonymous.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\AnonymousMethod\Anonymous\bin\Anonymous.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\AnonymousMethod\Anonymous\obj\Debug\Anonymous.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\AnonymousMethod\Anonymous\obj\Debug\Anonymous.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\AnonymousMethod\Anonymous\obj\Debug\Anonymous.pdb

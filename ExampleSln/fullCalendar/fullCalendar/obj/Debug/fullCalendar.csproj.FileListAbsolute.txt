@@ -1,0 +1,17 @@
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\bin\fullCalendar.dll.config
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\bin\fullCalendar.dll
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\bin\fullCalendar.pdb
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\obj\Debug\fullCalendar.csprojResolveAssemblyReference.cache
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\obj\Debug\fullCalendar.csproj.CoreCompileInputs.cache
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\obj\Debug\fullCalendar.dll
+C:\Stoner5944\doNet\fullCalendar\fullCalendar\obj\Debug\fullCalendar.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\bin\fullCalendar.dll.config
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\bin\fullCalendar.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\bin\fullCalendar.pdb
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\obj\Debug\fullCalendar.csprojResolveAssemblyReference.cache
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\obj\Debug\fullCalendar.dll
+\\fs05\個人目錄_資訊部\Share\5962\Data\C#\fullCalendar\fullCalendar\obj\Debug\fullCalendar.pdb

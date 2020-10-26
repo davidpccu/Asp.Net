@@ -1,0 +1,4 @@
+C:\Stoner5944\doNet\StringExample\StringExample\bin\StringExample.dll
+C:\Stoner5944\doNet\StringExample\StringExample\bin\StringExample.pdb
+C:\Stoner5944\doNet\StringExample\StringExample\obj\Debug\StringExample.dll
+C:\Stoner5944\doNet\StringExample\StringExample\obj\Debug\StringExample.pdb
