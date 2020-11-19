@@ -1,0 +1,60 @@
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\csc.exe
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\vbc.exe
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\VBCSCompiler.exe
+C:\Users\5962\Desktop\OOPClass\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\5962\Desktop\OOPClass\bin\OOPClass.dll.config
+C:\Users\5962\Desktop\OOPClass\bin\OOPClass.dll
+C:\Users\5962\Desktop\OOPClass\bin\OOPClass.pdb
+C:\Users\5962\Desktop\OOPClass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\5962\Desktop\OOPClass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\5962\Desktop\OOPClass\obj\Debug\OOPClass.dll
+C:\Users\5962\Desktop\OOPClass\obj\Debug\OOPClass.pdb
+C:\Users\5962\Desktop\OOPClass\obj\Debug\OOPClass.csprojResolveAssemblyReference.cache
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\obj\Debug\OOPClass.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\obj\Debug\OOPClass.pdb
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\csc.exe
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\vbc.exe
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\VBCSCompiler.exe
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\OOPClass.dll.config
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\OOPClass.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\OOPClass.pdb
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\5962\Desktop\新增資料夾 (2)\OOPClass\obj\Debug\OOPClass.csprojResolveAssemblyReference.cache
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\csc.exe
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\vbc.exe
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\VBCSCompiler.exe
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\OOPClass.dll.config
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\OOPClass.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\OOPClass.pdb
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\5962\Desktop\OOPClass\OOPClass\obj\Debug\OOPClass.csprojResolveAssemblyReference.cache
+C:\Users\5962\Desktop\OOPClass\OOPClass\obj\Debug\OOPClass.dll
+C:\Users\5962\Desktop\OOPClass\OOPClass\obj\Debug\OOPClass.pdb
