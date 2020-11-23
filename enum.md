@@ -114,3 +114,5 @@ public enum Sex
 ```
 
 >這樣不僅可以當 註解，還可以寫一個共用的擴充方法 ToDescription 給所有的 Enum 使用，不用再為每個 Enum 寫各自的轉換函數。
+
+[使用 Enum 避免 Magic Number](https://ithelp.ithome.com.tw/articles/10190758)
